@@ -27,7 +27,6 @@ client.connect()
         console.log('Connected to MongoDB');
 
         app.post('/register', async (request, response, next) => {
-            console.log('test213');
             const post_data = request.body;
 
             const name = post_data.name;
